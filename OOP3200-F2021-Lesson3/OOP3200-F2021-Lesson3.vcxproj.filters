@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Docs">
+      <UniqueIdentifier>{8c5b2dea-82fe-4734-ad11-96a2ed3f714c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -48,6 +51,9 @@
   <ItemGroup>
     <None Include="ClassDiagram.cd">
       <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\README.md">
+      <Filter>Docs</Filter>
     </None>
   </ItemGroup>
 </Project>
